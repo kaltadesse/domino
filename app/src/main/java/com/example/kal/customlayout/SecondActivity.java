@@ -1,5 +1,7 @@
 package com.example.kal.customlayout;
 
+import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.support.v7.app.ActionBarActivity;
 
 /**
@@ -7,5 +9,8 @@ import android.support.v7.app.ActionBarActivity;
  */
 public class SecondActivity extends ActionBarActivity {
 
-
+    @Override
+    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
+        super.onCreate(savedInstanceState, persistentState);
+    }
 }
